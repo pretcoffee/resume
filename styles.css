@@ -27,6 +27,7 @@ body {
     margin-top: 20px;
     background-color: transparent;
     flex-direction: row;
+    min-height: 90vh;
 }
 
 .sidebar {

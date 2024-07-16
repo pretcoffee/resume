@@ -43,9 +43,7 @@ body {
 
 .logo-img {
     width: 100px;
-    height: auto;
-    margin-bottom: 20px;
-    pointer-events: none;
+    height: 100px;
 }
 
 .sidebar nav ul {
@@ -99,6 +97,10 @@ main {
     opacity: 1;
     transform: translateY(0);
     position: relative;
+}
+
+.content-section.active p {
+	line-height: 2;
 }
 
 .content-section h1 {
